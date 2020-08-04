@@ -1,0 +1,56 @@
+.landing{
+    width: 100vw;
+    height: 100vh;
+}
+.landing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 4;
+    position: relative;
+}
+.landing-background {
+    background-image: url("../Resources/background.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    opacity: .7;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.landing-background-color-overlay {
+    background-image: linear-gradient(to bottom, rgb(168, 2, 22), rgb(3, 80, 70));
+    opacity: .4;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+}
+
+.landing-first-line {
+    line-height: 65px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(244, 247, 240);
+}
+
+.landing-second-line {
+    margin-top: 3%;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(244, 247, 240);
+}
+
+.cri-plan-box {
+    margin-top:4%;
+    border-radius: 5px;
+    width: 75vw;
+    background-color: rgb(244, 247, 240);
+}
+@media only screen and (max-width: 1150px) {
+    .cri-plan-box {
+        width: 863px;
+    }
+}

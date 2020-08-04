@@ -1,0 +1,47 @@
+.navbar{
+    padding:1% 5%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    z-index: 4;
+    position: relative;
+}
+.navbar h1{
+    margin:0;
+    border-top: 0;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+}
+.navbar img, .navbar button{
+    height: 50px;
+}
+.leftNav ul{
+    display: flex;
+    justify-content: flex-start;
+    text-transform: uppercase;
+}
+.leftNav li, .rightNav li{
+    
+    text-decoration: none; 
+    list-style:none;
+}
+.leftNav li{
+    padding: 15px 15px 0 15px;
+}
+.rightNav li{
+    padding: 10px 15px 0 15px;
+}
+.rightNav ul{
+    padding-top:5px;
+    display: flex;
+    justify-content: flex-end;
+}
+.leftNav span{
+    padding-right: 10px;
+}
+.rightNav span{
+    padding-left: 10px;
+}
+

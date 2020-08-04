@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+body {
+    margin: 0;
+    width: 100%;
+    font-family: myriad-pro, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: -1px;
+    color: rgb(1, 82, 78);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+    color: rgb(51, 133, 119);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.submit-button {
+    
+    background-image: linear-gradient(to bottom right, rgb(148, 177, 145), rgb(22, 100, 77));
+    /*background-color: rgb(3, 114, 71);*/
+    color: rgb(240, 236, 222);
+    border-radius: 5px;
+    padding: 0 30px;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 0;
+    margin: 0;
+    letter-spacing: -1px;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+    text-decoration: none;
+    color: rgb(244, 247, 240);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fontAwesomeLanding{
+    color: rgb(143, 218, 124);
 }
